@@ -1,2 +1,3 @@
--- lists all the tables of a database in your MySQL server
-mysql -u Ricki -p -e "USE hbtn_0c_0; SHOW TABLES;"
+--lists all the tables of a database
+USE database_name; -- Replace 'database_name' with the name of database
+SHOW TABLES;
